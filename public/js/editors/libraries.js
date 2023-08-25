@@ -1,5 +1,48 @@
 var libraries = [
   {
+    'url': ['https://z.wiki/autoupload/20230825/UjWb.unpkg.com_react%4015.1.0_dist_react.js', 'https://z.wiki/autoupload/20230825/upYj.unpkg.com_react-dom%4015.1.0_dist_react-dom.js'],
+    'label': 'React + React DOM 15.1.0',
+    'group': 'React'
+  },
+  {
+    'url': ['https://z.wiki/autoupload/20230825/U8n5.unpkg.com_react%4015.1.0_dist_react-with-addons.js', 'unpkg.com_react-dom@15.1.0_dist_react-dom.js'],
+    'label': 'React with Add-Ons + React DOM 15.1.0',
+    'group': 'React'
+  },
+  {
+    'url': ['https://z.wiki/autoupload/20230825/kKKK.unpkg.com_react%400.14.7_dist_react.js', 'https://z.wiki/autoupload/20230825/l5bA.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
+    'label': 'React + React DOM 0.14.7',
+    'group': 'React'
+  },
+  {
+    'url': ['https://z.wiki/autoupload/20230825/lM6G.unpkg.com_react%400.14.7_dist_react-with-addons.js', 'https://z.wiki/autoupload/20230825/Lq0K.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
+    'label': 'React with Add-Ons + React DOM 0.14.7',
+    'group': 'React'
+  },
+  {
+    'url': 'https://z.wiki/autoupload/20230825/scoc.unpkg.com_react%400.13.3_dist_react.js',
+    'label': 'React 0.13.3',
+    'group': 'React'
+  },
+  {
+    'url': 'https://z.wiki/autoupload/20230825/Z0ZQ.unpkg.com_react%400.13.3_dist_react-with-addons.js',
+    'label': 'React with Add-Ons 0.13.3',
+    'group': 'React'
+  },
+  {
+    'url': 'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
+    'label': 'Moment 2.14.1',
+    'group': 'Moment.js'
+  },
+  {
+    'url': [
+      'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
+      'https://cdn.jsdelivr.net/momentjs/2.14.1/locales.min.js'
+    ],
+    'label': 'Moment 2.14.1 (with locales)',
+    'group': 'Moment.js'
+  },
+  {
     'url': 'https://code.jquery.com/jquery-git.js',
     'label': 'jQuery WIP (via git)',
     'group': 'jQuery'
@@ -376,36 +419,6 @@ var libraries = [
     'url': 'https://rawgit.com/angular/bower-angular-sanitize/master/angular-sanitize.min.js',
     'label': 'Angular Sanitize Latest',
     'group': 'Angular'
-  },
-  {
-    'url': ['https://z.wiki/autoupload/20230825/UjWb.unpkg.com_react%4015.1.0_dist_react.js', 'https://z.wiki/autoupload/20230825/upYj.unpkg.com_react-dom%4015.1.0_dist_react-dom.js'],
-    'label': 'React + React DOM 15.1.0',
-    'group': 'React'
-  },
-  {
-    'url': ['https://z.wiki/autoupload/20230825/U8n5.unpkg.com_react%4015.1.0_dist_react-with-addons.js', 'unpkg.com_react-dom@15.1.0_dist_react-dom.js'],
-    'label': 'React with Add-Ons + React DOM 15.1.0',
-    'group': 'React'
-  },
-  {
-    'url': ['https://z.wiki/autoupload/20230825/kKKK.unpkg.com_react%400.14.7_dist_react.js', 'https://z.wiki/autoupload/20230825/l5bA.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
-    'label': 'React + React DOM 0.14.7',
-    'group': 'React'
-  },
-  {
-    'url': ['https://z.wiki/autoupload/20230825/lM6G.unpkg.com_react%400.14.7_dist_react-with-addons.js', 'https://z.wiki/autoupload/20230825/Lq0K.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
-    'label': 'React with Add-Ons + React DOM 0.14.7',
-    'group': 'React'
-  },
-  {
-    'url': 'https://z.wiki/autoupload/20230825/scoc.unpkg.com_react%400.13.3_dist_react.js',
-    'label': 'React 0.13.3',
-    'group': 'React'
-  },
-  {
-    'url': 'https://z.wiki/autoupload/20230825/Z0ZQ.unpkg.com_react%400.13.3_dist_react-with-addons.js',
-    'label': 'React with Add-Ons 0.13.3',
-    'group': 'React'
   },
   {
     'url': 'https://cdn.rawgit.com/zloirock/core-js/master/client/shim.min.js',
@@ -799,19 +812,6 @@ var libraries = [
     'url': 'https://cdn.jsdelivr.net/pouchdb/latest/pouchdb.min.js',
     'label': 'PouchDB (latest)',
     'group': 'PouchDB'
-  },
-  {
-    'url': 'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
-    'label': 'Moment 2.14.1',
-    'group': 'Moment.js'
-  },
-  {
-    'url': [
-      'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
-      'https://cdn.jsdelivr.net/momentjs/2.14.1/locales.min.js'
-    ],
-    'label': 'Moment 2.14.1 (with locales)',
-    'group': 'Moment.js'
   },
   {
     'url': '//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js',
