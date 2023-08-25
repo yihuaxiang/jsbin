@@ -378,32 +378,32 @@ var libraries = [
     'group': 'Angular'
   },
   {
-    'url': ['https://fb.me/react-15.1.0.js', 'https://fb.me/react-dom-15.1.0.js'],
+    'url': ['https://z.wiki/autoupload/20230825/UjWb.unpkg.com_react%4015.1.0_dist_react.js', 'https://z.wiki/autoupload/20230825/upYj.unpkg.com_react-dom%4015.1.0_dist_react-dom.js'],
     'label': 'React + React DOM 15.1.0',
     'group': 'React'
   },
   {
-    'url': ['https://fb.me/react-with-addons-15.1.0.js', 'https://fb.me/react-dom-15.1.0.js'],
+    'url': ['https://z.wiki/autoupload/20230825/U8n5.unpkg.com_react%4015.1.0_dist_react-with-addons.js', 'unpkg.com_react-dom@15.1.0_dist_react-dom.js'],
     'label': 'React with Add-Ons + React DOM 15.1.0',
     'group': 'React'
   },
   {
-    'url': ['https://fb.me/react-0.14.7.js', 'https://fb.me/react-dom-0.14.7.js'],
+    'url': ['https://z.wiki/autoupload/20230825/kKKK.unpkg.com_react%400.14.7_dist_react.js', 'https://z.wiki/autoupload/20230825/l5bA.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
     'label': 'React + React DOM 0.14.7',
     'group': 'React'
   },
   {
-    'url': ['https://fb.me/react-with-addons-0.14.7.js', 'https://fb.me/react-dom-0.14.7.js'],
+    'url': ['https://z.wiki/autoupload/20230825/lM6G.unpkg.com_react%400.14.7_dist_react-with-addons.js', 'https://z.wiki/autoupload/20230825/Lq0K.unpkg.com_react-dom%400.14.7_dist_react-dom.js'],
     'label': 'React with Add-Ons + React DOM 0.14.7',
     'group': 'React'
   },
   {
-    'url': 'https://fb.me/react-0.13.3.js',
+    'url': 'https://z.wiki/autoupload/20230825/scoc.unpkg.com_react%400.13.3_dist_react.js',
     'label': 'React 0.13.3',
     'group': 'React'
   },
   {
-    'url': 'https://fb.me/react-with-addons-0.13.3.js',
+    'url': 'https://z.wiki/autoupload/20230825/Z0ZQ.unpkg.com_react%400.13.3_dist_react-with-addons.js',
     'label': 'React with Add-Ons 0.13.3',
     'group': 'React'
   },
