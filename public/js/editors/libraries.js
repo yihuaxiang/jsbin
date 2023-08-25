@@ -1,6 +1,6 @@
 var libraries = [
   {
-    'url': ['https://z.wiki/autoupload/20230825/AsRJ.react_18.2.0_umd_react.development.js', 'https://z.wiki/autoupload/20230825/4yvA.react-dom_18.2.0_umd_react-dom.development.js'],
+    'url': ['https://z.wiki/autoupload/20230825/AsRJ.react_18.2.0_umd_react.development.js', 'https://z.wiki/autoupload/20230825/4yvA.react-dom_18.2.0_umd_react-dom.development.js', 'https://z.wiki/autoupload/20230825/l01e.babel-standalone_7.22.10_babel.min.js'],
     'label': 'React + React DOM 18.2.0',
     'group': 'React'
   },
