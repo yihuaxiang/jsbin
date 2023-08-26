@@ -12,9 +12,9 @@
           <a href="{{root}}{{code_id_path}}/edit#file" target="_blank" class="brand button button-dropdown group button-dropdown-arrow"><img src="{{static}}/images/favicon.svg"> File</a>
           <div class="dropdown" id="file">
             <div class="dropdownmenu">
-              <a id="createnew" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root?template=react18}}" data-label="new">New React</a>
-              <a id="createnew-vue2" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root?template=vue2}}" data-label="new">New Vue2</a>
-              <a id="createnew-vue3" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root?template=vue3}}" data-label="new">New Vue3</a>
+              <a id="createnew" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root}}?template=react18" data-label="new">New React</a>
+              <a id="createnew-vue2" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root}}?template=vue2" data-label="new">New Vue2</a>
+              <a id="createnew-vue3" data-desc="Create a brand new bin" class="button group" title="Create fresh bin" href="{{root}}?template=vue3" data-label="new">New Vue3</a>
               {{#feature request "private"}}
               <a id="public" data-desc="Set this bin to public" class="visibilityToggle button group"   title="Set this bin to public" href="{{root}}" data-label="public" data-vis="public">Make bin public</a>
               {{else}}
