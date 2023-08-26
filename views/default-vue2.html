@@ -3,16 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>敖武的实验室 vue2</title>
+  <title>敖武的实验室 vue3</title>
 </head>
-<script src="https://z.wiki/autoupload/20230825/AsRJ.react_18.2.0_umd_react.development.js"></script>
-<script src="https://z.wiki/autoupload/20230825/4yvA.react-dom_18.2.0_umd_react-dom.development.js"></script>
-<script src="https://z.wiki/autoupload/20230825/l01e.babel-standalone_7.22.10_babel.min.js"></script>
+<script src="https://z.wiki/autoupload/20230826/W35x.vue%402.7.14_dist_vue.js"></script>
 <body>
-  <div id="root"></div>
-  <script type="text/babel">
-	const element = <h1 className="foo" style={{color: 'red'}}>Hello, world</h1>;
-	ReactDOM.render(element, document.getElementById('root'));
-  </script>
+<h1 id="app" style="color: red;">{{ message }}</h1>
+
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue2!'
+    }
+  })
+</script>
 </body>
 </html>
