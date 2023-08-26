@@ -237,9 +237,9 @@ if ('serviceWorker' in navigator) {
 {{!-- we use the passed in version of isProduction here, not the app global as we need to be able to switch it - even when in production --}}
 {{#if isProduction}}
 <script src="https://z.wiki/jsbin/js/prod/jsbin-{{version}}.min.js"></script>
-<script async defer src="https://z.wiki/jsbin/bin/start.js?{{bust}}"></script>
+<script async defer src="https://z.wiki/jsbin/bin/start.js?{{bust}}&template={{template}}"></script>
 {{else}}{{!- if development, we need include the user code first, otherwise last --}}
-<script src="https://z.wiki/jsbin/bin/start.js?{{bust}}"></script>
+<script src="https://z.wiki/jsbin/bin/start.js?{{bust}}&template={{template}}"></script>
   {{#if concat}}
 <script src="https://z.wiki/jsbin/js/prod/jsbin-{{version}}.js"></script>
   {{else}}
