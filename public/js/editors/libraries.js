@@ -35,6 +35,11 @@ var libraries = [
     'group': 'React'
   },
   {
+    'url': 'https://z.wiki/autoupload/20230826/W35x.vue%402.7.14_dist_vue.js',
+    'label': 'vue 2',
+    'group': 'Vue.js'
+  },
+  {
     'url': 'https://z.wiki/autoupload/20230826/lqLl.vue%403.3.4_dist_vue.global.js',
     'label': 'vue 3',
     'group': 'Vue.js'
