@@ -35,6 +35,11 @@ var libraries = [
     'group': 'React'
   },
   {
+    'url': 'https://z.wiki/autoupload/20230826/lqLl.vue%403.3.4_dist_vue.global.js',
+    'label': 'vue 3',
+    'group': 'Vue.js'
+  },
+  {
     'url': 'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
     'label': 'Moment 2.14.1',
     'group': 'Moment.js'
