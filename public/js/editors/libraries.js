@@ -51,6 +51,13 @@ var libraries = [
   },
   {
     'url': [
+      'https://cdn.tailwindcss.com'
+    ],
+    'label': 'tailwindcss',
+    'group': 'tailwindcss'
+  },
+  {
+    'url': [
       'https://cdn.jsdelivr.net/momentjs/2.14.1/moment-with-locales.min.js',
       'https://cdn.jsdelivr.net/momentjs/2.14.1/locales.min.js'
     ],
